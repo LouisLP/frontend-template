@@ -3,9 +3,11 @@
 </script>
 
 <template>
-  <footer class="footer sm:footer-horizontal footer-center bg-base-300 text-base-content p-4">
+  <footer class="footer sm:footer-horizontal footer-center bg-black text-base-content p-4">
     <aside>
-      <p>Copyright © {{ new Date().getFullYear() }} - All rights reserved by Aware-Louis Inc.</p>
+      <p class="text-white/30">
+        Copyright © {{ new Date().getFullYear() }} - All rights reserved by Louis' Template Inc.
+      </p>
     </aside>
   </footer>
 </template>

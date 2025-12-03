@@ -1,31 +1,16 @@
 <script setup>
-import { Icon } from '@iconify/vue'
-
 import Footer from '@/components/ui/BaseFooter.vue'
 import Navbar from '@/components/ui/BaseNavbar.vue'
 </script>
 
 <template>
-  <Navbar />
+  <div class="min-h-screen flex flex-col">
+    <Navbar />
 
-  <main>
-    <RouterView />
-  </main>
+    <main class="flex-1">
+      <RouterView />
+    </main>
 
-  <div class="space-y-6">
-    <!-- Tailwind -->
-    <h1 class="text-3xl font-bold underline">
-      Hello World!
-    </h1>
-
-    <!-- DaisyUI -->
-    <button class="btn btn-primary">
-      Click Me
-    </button>
-
-    <!-- Iconify -->
-    <Icon icon="mdi:home" class="size-6 text-gray-700" />
+    <Footer />
   </div>
-
-  <Footer />
 </template>

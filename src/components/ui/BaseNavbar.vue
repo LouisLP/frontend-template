@@ -5,8 +5,11 @@ import { Icon } from '@iconify/vue'
 <template>
   <div class="navbar bg-neutral shadow-sm">
     <div class="flex-1">
-      <a class="btn btn-ghost text-xl">daisyUI</a>
+      <RouterLink to="/" class="btn btn-ghost text-xl">
+        Template
+      </RouterLink>
     </div>
+
     <div class="flex-none">
       <!-- Cart -->
       <button tabindex="0" role="button" class="btn btn-ghost">
