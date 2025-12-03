@@ -1,27 +1,16 @@
-# frontend-template
+# FRONTEND TEMPLATE
 
-This template should help get you started developing with Vue 3 in Vite.
+This is a template Vue setup
 
-## Recommended IDE Setup
+## Recommended Setup
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+I'd recommend using [VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur). I'm using [Antfu's ESLint config preset](https://github.com/antfu/eslint-config) for formatting (rather than something like Prettier); this way, through `eslint.config.mjs` and the recommended settings under `.vscode/settings.json` working in tandem, you'll get some flawless linting suggestions/fixes.
 
-## Recommended Browser Setup
+## Technologies Used
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+- [Vue.js](https://vuejs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [ESLint](https://eslint.org/) (with [Antfu's config](https://github.com/antfu/eslint-config) and most of [CJ's suggestions from Syntax here](https://gist.github.com/w3cj/21b1f1b4857ecd13d076075a5c5aaf13/))
 
 ## Project Setup
 
@@ -35,20 +24,14 @@ npm install
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
 ### Lint with [ESLint](https://eslint.org/)
 
 ```sh
 npm run lint
+```
+
+Or to automatically fix all files with the above-described rules:
+
+```sh
+npm run lint:fix
 ```
