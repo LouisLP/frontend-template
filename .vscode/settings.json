@@ -1,4 +1,9 @@
 {
+    // No more squigglies on Tailwind-related-CSS stuff
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+
     // DEFAULT ANTFU SETTINGS 
     
     // Disable the default formatter, use eslint instead
