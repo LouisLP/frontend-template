@@ -1,13 +1,20 @@
-<script setup lang="ts"></script>
+<script setup>
+import { Icon } from '@iconify/vue'
+</script>
 
 <template>
-  <h1 class="text-4xl font-bold underline">
-    Hello world!
-  </h1>
+  <div class="space-y-6">
+    <!-- Tailwind -->
+    <h1 class="text-3xl font-bold underline">
+      Hello World!
+    </h1>
 
-  <button class="btn btn-outline btn-secondary">
-    Secondary
-  </button>
+    <!-- DaisyUI -->
+    <button class="btn btn-primary">
+      Click Me
+    </button>
+
+    <!-- Iconify -->
+    <Icon icon="mdi:home" class="size-6 text-gray-700" />
+  </div>
 </template>
-
-<style scoped></style>
