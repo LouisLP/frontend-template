@@ -11,6 +11,7 @@ I'd recommend using [VS Code](https://code.visualstudio.com/) + [Vue (Official)]
 - [Vue.js](https://vuejs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [ESLint](https://eslint.org/) (with [Antfu's config](https://github.com/antfu/eslint-config) and most of [CJ's suggestions from Syntax here](https://gist.github.com/w3cj/21b1f1b4857ecd13d076075a5c5aaf13/))
+- [Vee-validate](https://vee-validate.logaretm.com/v4/guide/composition-api/getting-started/) with [Zod](https://zod.dev/)
 
 ## Project Setup
 
