@@ -1,6 +1,6 @@
-# FRONTEND TEMPLATE
+# TODO: add title
 
-This is a template Vue setup
+TODO: add description
 
 ## Recommended Setup
 
@@ -25,7 +25,7 @@ npm install
 npm run dev
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Lint
 
 ```sh
 npm run lint
